@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column; /* Change this to column for better UI layout */
+  align-items: center;
+}
+
+.controls {
+  margin: 20px;
+}
+
+.color-picker {
+  margin: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+canvas {
+  flex: 1;
+  background: #f0f0f0;
+  width: 100%;  /* Ensure the canvas takes full width */
+}
